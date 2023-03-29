@@ -1,0 +1,146 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #666;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+  }
+  
+  ul {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  /* Home page styles */
+  
+  .home {
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/02/13/01/dog-3056131__340.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .home h1 {
+    font-size: 72px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .home p {
+    font-size: 24px;
+    margin: 0 0 40px 0;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+  }
+  
+  /* Pets page styles */
+  
+  .pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .pets img {
+    max-width: 100%;
+  }
+  
+  /* Contact page styles */
+  
+  form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #666;
+  }
